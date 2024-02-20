@@ -1,10 +1,12 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import GitHubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import Link from 'next/link';
 import Image from 'next/image';
 
 const EmailSection = () => {
+    const [emailSubmitted, setEmailSubmitted] = useState(false);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -24,7 +26,16 @@ const EmailSection = () => {
             
             body: JSONdata,
         }
-    }
+
+        const response = await fetch(endpoint, options);
+        const resData = await response.json();
+        console.log(resData);
+
+        if(response.status === 200) {
+            console.log('Message sent.');
+            setEmailSubmitted(true);
+        }
+    };
   return (
     <section 
         id="contact"
@@ -49,7 +60,7 @@ const EmailSection = () => {
             </div>
         </div>
         <div>
-            <form className='flex flex-col'>
+            <form className='flex flex-col' onSubmit={handleSubmit}>
                 <div className='mb-6'>
                 <label 
                 htmlFor="email" 
@@ -57,6 +68,7 @@ const EmailSection = () => {
                     Your Email
                 </label>
                 <input 
+                name='email'
                 type="email" 
                 id="email" 
                 className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'
@@ -70,6 +82,7 @@ const EmailSection = () => {
                 </label>
                 <input 
                 type="text" 
+                name='subject'
                 id="subject" 
                 className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'
                 required placeholder="Wanting to Connect!" />
@@ -89,9 +102,16 @@ const EmailSection = () => {
                         />
                 </div>
                 <button type='submit'
-                className='bg-purple-500 hover:bg-purple-600 text-white font-medium py-2.5 px-5 rounded-lg w-full'> 
+                className='bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full'> 
                     Send Message
                 </button>
+                {
+                    emailSubmitted && (
+                        <p className='text-green-500 text-sm mt-2'>
+                            Email Sent Succesfully!
+                        </p>
+                    )
+                }
             </form>
         </div>
     </section>

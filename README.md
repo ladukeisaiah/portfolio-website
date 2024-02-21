@@ -1,4 +1,18 @@
+#Portfolio Website
+
+This project is a Next.JS project designed to showcase various projects I have completed and links to see these projects in my Github.
+
+## the Design
+
+The design of the web app is to be a single page application built with design customizations TailWind CSS, framer-motion, react-type-animation, HTML, and JS.
+
+This project showcases good design principles to display achievements, skills, education, and experience in an easy to read format.
+
+The web app also uses an API for Sender that allows us to have email submissions from prospective clients or employers.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+Each piece of the web app is built in its own component file and then imported into the page.js file where the files can all be displayed in the order we desire.
 
 ## Getting Started
 

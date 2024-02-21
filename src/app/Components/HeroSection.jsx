@@ -16,7 +16,7 @@ const HeroSection = () => {
                 transition={{duration: 0.5}} 
                 className="col-span-8 space-self-center text-center sm:text-left justify-self start">
                     <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-                        <span className="text-transparent bg-clip-text bg-custom-gradient bg-gradient-to-r from-primary-400 to-secondary-600">Hello, I'm{" "}
+                        <span className="text-transparent bg-clip-text bg-custom-gradient bg-gradient-to-r from-primary-400 to-secondary-600">Hello, I&apos;m{" "}
                         </span>
                         <br></br>
                         <TypeAnimation
@@ -37,7 +37,7 @@ const HeroSection = () => {
                             />
                     </h1>
                     <p className="text-[#aADB7BE] text-base sm:text-lg mb-6 lg:text-xl"> 
-                    Lorem ipsum dolor sit amet consectetur
+                    I&apos;m so glad you&apos;re here!
                     </p>
                     <div className=""> 
                         <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-secondary-500 via-primary-500 to-tertiary-500 hover:bg-slate-200 text-white">

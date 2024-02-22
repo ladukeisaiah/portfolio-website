@@ -65,8 +65,8 @@ const AboutSection = () => {
             <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
             <p className='text-base md:text-lg'>
               I am a full stack web developer with a passion for creating
-                interactive and responsive web and Mobile applications. I have experience
-                working with JavaScript, React, Node.js, PostgreSQL, Java, Python,
+                interactive and responsive web and mobile applications. I have experience
+                working with JavaScript, React, Next.js, Node.js, PostgreSQL, Java, Python,
                 HTML, CSS, and Git. My future desire is to dive deaper into Machine Learning &
                 Augmented Reality. I am a fast learner, who is always looking to
                 expand my knowledge and skill set. I am a team player and I am

@@ -10,13 +10,16 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className='list-disc pl-2'>
-      <li>Node.js</li>
       <li>React</li>
       <li>JavaScript</li>
       <li>Java</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Node.js</li>
+      <li>Firebase Google Cloud</li>
       <li>PostgreSQL</li>
       <li>Python</li>
-      <li>Node.js</li>
+      <li>Next.js</li>
       </ul>
     )
   },
@@ -55,16 +58,17 @@ const AboutSection = () => {
   };
 
   return (
-    <section className='text-white'>
+    <section id="about" className='text-white'>
         <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
         <Image src="/images/about-page-image.png" width={500} height={500} alt="about-page-image"/>
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
             <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
             <p className='text-base md:text-lg'>
               I am a full stack web developer with a passion for creating
-                interactive and responsive web applications. I have experience
+                interactive and responsive web and Mobile applications. I have experience
                 working with JavaScript, React, Node.js, PostgreSQL, Java, Python,
-                HTML, CSS, and Git. I am a fast learner, who is always looking to
+                HTML, CSS, and Git. My future desire is to dive deaper into Machine Learning &
+                Augmented Reality. I am a fast learner, who is always looking to
                 expand my knowledge and skill set. I am a team player and I am
                 excited to work with others to create amazing applications.
             </p>

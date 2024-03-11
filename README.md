@@ -1,4 +1,4 @@
-#Portfolio Website
+# Portfolio Website
 
 Welcome to my portfolio website project, a dynamic showcase of my work, built with Next.js. This site not only highlights the projects I've completed but also offers direct links to their respective repositories on GitHub, making it a comprehensive display of my technical capabilities.
 

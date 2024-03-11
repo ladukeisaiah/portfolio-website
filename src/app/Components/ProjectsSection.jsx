@@ -17,7 +17,7 @@ const projectsData = [
     {
         id: 2,
         title: "Twitter Clone: BirdTalk",
-        description: "A Twitter clone built with the T3 stack to display Full Stack Engineering Skills",
+        description: "A Twitter clone built with the T3 stack to display Full Stack Engineering skills such as authentication, backend using planetscale for hosting with Prisma and MySQL, TypeScript, and modern styling with TailWind CSS.",
         image: "/images/projects/bird-talk.png",
         tag: ["All", "Web"],
         gitUrl: "https://nextjs-social-app-seven.vercel.app/",

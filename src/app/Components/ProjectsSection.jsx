@@ -16,12 +16,12 @@ const projectsData = [
     },
     {
         id: 2,
-        title: "Registration Form",
-        description: "A project creating registration forms using HTML & CSS",
-        image: "/images/projects/registration-form.png",
+        title: "Twitter Clone: BirdTalk",
+        description: "A Twitter clone built with the T3 stack to display Full Stack Engineering Skills",
+        image: "/images/projects/bird-talk.png",
         tag: ["All", "Web"],
-        gitUrl: "https://github.com/ladukeisaiah/registration-form",
-        previewUrl: "/"
+        gitUrl: "https://nextjs-social-app-seven.vercel.app/",
+        previewUrl: "https://nextjs-social-app-seven.vercel.app/"
     },
     {
         id: 3,
@@ -103,7 +103,16 @@ const projectsData = [
         tag: ["All", "Web"],
         gitUrl: "https://github.com/ladukeisaiah/flexbox-photo-gallery",
         previewUrl: "/"
-    }
+    },
+    {
+        id: 12,
+        title: "Registration Form",
+        description: "A project creating registration forms using HTML & CSS",
+        image: "/images/projects/registration-form.png",
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/ladukeisaiah/registration-form",
+        previewUrl: "/"
+    },
 ]
 
 const ProjectsSection = () => {

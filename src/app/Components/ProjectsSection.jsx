@@ -29,7 +29,7 @@ const projectsData = [
         description: "A blog website built with HTML, CSS, & JS, for sharing posts on forestry and allowing users to post their own blogs to the site as well.",
         image: "/images/projects/blog-app.png",
         tag: ["All", "Web"],
-        gitUrl: "ladukeisaiah.github.io/trial-by-fire/",
+        gitUrl: "https://ladukeisaiah.github.io/trial-by-fire/",
         previewUrl: "/"
     },
     {

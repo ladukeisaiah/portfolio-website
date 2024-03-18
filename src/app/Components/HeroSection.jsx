@@ -13,7 +13,7 @@ const downloadCV = () => {
         const link = document.createElement('a');
         // Set the href to the path of the PDF file starting with a forward slash
         // The root of the public folder is the root URL (`/`)
-        link.href = '/resume.pdf';
+        link.href = '/Isaiah-LaDuke-Resume.pdf';
         // Set the download attribute to the desired file name
         link.download = 'Isaiah-LaDuke-Resume.pdf';
         // Append the anchor to the body

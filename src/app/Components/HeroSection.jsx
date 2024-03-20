@@ -28,12 +28,13 @@ const HeroSection = () => {
     return (
         
         <section className="lg:py-16">
-            <div className="grid grid-cols-1 lg:grid-cols-12 min-h-[500px]">
+            <div className="grid grid-cols-1 lg:grid-cols-12">
                 <motion.div 
                 initial={{opacity: 0, scale: 0.5}} 
                 animate={{opacity: 1, scale: 1}} 
                 transition={{duration: 0.5}} 
                 className="col-span-8 space-self-center text-center sm:text-left justify-self start">
+                    <div className="min-h-[500px] overflow-hidden">
                     <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
                         <span className="text-transparent bg-clip-text bg-custom-gradient bg-gradient-to-r from-primary-400 to-secondary-600">Hello, I&apos;m{" "}
                         </span>
@@ -42,23 +43,23 @@ const HeroSection = () => {
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially
                                 'Isaiah',
-                                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                                1000,
                                 'A Software Engineer',
                                 1000,
-                                'A UX/UI Designer',
+                                'A React Developer',
                                 1000,
-                                'A Mobile App Developer',
-                                1000
+                                
                             ]}
                             wrapper="span"
                             speed={50}
                             repeat={Infinity}
                             />
                     </h1>
+                    </div>
                     <p className="text-[#aADB7BE] text-base sm:text-lg mb-6 lg:text-xl"> 
                     I&apos;m so glad you&apos;re here!
                     </p>
-                    <div className=""> 
+                    <div className="absolute bottom-0 left-0 right-0 pb-4"> 
                         <button onClick={hireMe} className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-secondary-500 via-primary-500 to-tertiary-500 hover:bg-slate-200 text-white">
                             Hire Me
                         </button>

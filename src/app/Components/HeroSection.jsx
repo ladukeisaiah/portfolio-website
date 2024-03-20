@@ -59,7 +59,7 @@ const HeroSection = () => {
                     <p className="text-[#aADB7BE] text-base sm:text-lg mb-6 lg:text-xl"> 
                     I&apos;m so glad you&apos;re here!
                     </p>
-                    <div className="absolute bottom-0 left-0 right-0 pb-4"> 
+                    <div className=""> 
                         <button onClick={hireMe} className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-secondary-500 via-primary-500 to-tertiary-500 hover:bg-slate-200 text-white">
                             Hire Me
                         </button>

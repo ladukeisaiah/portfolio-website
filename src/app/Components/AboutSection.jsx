@@ -33,7 +33,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className='list-disc pl-2'>
-      <li>Western Governor&apos;s University, Utah</li>
+      <li> Bachelor of Science, Software Engineering from Western Governor&apos;s University, Utah</li>
       </ul>
     )
   },
@@ -69,7 +69,7 @@ const AboutSection = () => {
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
             <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
             <p className='text-base md:text-lg'>
-              I am a full stack web developer with a passion for creating
+              I am a Full-Stack React developer with a passion for creating
                 interactive and responsive web and mobile applications. I have experience
                 working with JavaScript, React, Next.js, Node.js, PostgreSQL, Java, Python,
                 HTML, CSS, and Git. My future desire is to dive deaper into Machine Learning &

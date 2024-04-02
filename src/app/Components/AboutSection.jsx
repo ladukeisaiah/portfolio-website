@@ -11,7 +11,6 @@ const TAB_DATA = [
     content: (
       <ul className='list-disc pl-2'>
       <li>React</li>
-      <li>T3 Stack</li>
       <li>Next.js</li>
       <li>TypeScript</li>
       <li>JavaScript</li>
@@ -20,6 +19,7 @@ const TAB_DATA = [
       <li>HTML</li>
       <li>CSS</li>
       <li>Tailwind CSS</li>
+      <li>T3 Stack</li>
       <li>Node.js</li>
       <li>Firebase Google Cloud</li>
       <li>Prisma</li>

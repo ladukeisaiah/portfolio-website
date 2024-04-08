@@ -20,7 +20,7 @@ const projectsData = [
         description: "A Twitter clone built with the T3 stack to display Full Stack Engineering skills such as authentication, backend using planetscale for hosting with Prisma and MySQL, TypeScript, and modern styling with TailWind CSS.",
         image: "/images/projects/bird-talk.png",
         tag: ["All", "Web"],
-        gitUrl: "https://nextjs-social-app-seven.vercel.app/",
+        gitUrl: "https://github.com/ladukeisaiah/BirdTalk",
         previewUrl: "https://nextjs-social-app-seven.vercel.app/"
     },
     {
@@ -29,8 +29,8 @@ const projectsData = [
         description: "A blog website built with HTML, CSS, & JS, for sharing posts on forestry and allowing users to post their own blogs to the site as well.",
         image: "/images/projects/blog-app.png",
         tag: ["All", "Web"],
-        gitUrl: "https://ladukeisaiah.github.io/trial-by-fire/",
-        previewUrl: "/"
+        gitUrl: "https://github.com/ladukeisaiah/trial-by-fire",
+        previewUrl: "https://ladukeisaiah.github.io/trial-by-fire/"
     },
     {
         id: 4,
